@@ -15,7 +15,7 @@ function add_btn() {
             bad += '</li>';
         }
         bad += '</ul>';
-        $('.vw_list').html(bad);
+        $('.bw_list').html(bad);
     }
     else {
         $('.inp_bw').addClass('valid');
@@ -25,4 +25,7 @@ function add_btn() {
     }
 }
 function reset_btn() {
+    $('.bw_list').empty();
+    $('.inp_bw').attr("placeholder", "Please write a word!");
+    ;
 }

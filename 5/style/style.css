@@ -42,7 +42,7 @@ section form .bw_title {
   font-weight: 600;
 }
 
-section form .bw_title .vw_list ul {
+section form .bw_title .bw_list ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,7 +52,7 @@ section form .bw_title .vw_list ul {
   padding-left: 5px;
 }
 
-section form .bw_title .vw_list ul li {
+section form .bw_title .bw_list ul li {
   margin-right: 7px;
 }
 
