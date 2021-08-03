@@ -70,10 +70,6 @@ section form .input_bad_word .inp_bw {
   width: 69%;
 }
 
-section form .input_bad_word .valid {
-  border: 1px solid red;
-}
-
 section form .input_bad_word button {
   width: 14%;
 }
@@ -81,10 +77,17 @@ section form .input_bad_word button {
 section form .result .inp_text {
   height: 95px;
   margin-top: 10px;
+  -webkit-box-align: 0px;
+      -ms-flex-align: 0px;
+          align-items: 0px;
 }
 
 section form .result button {
   width: 100%;
   margin-top: 10px;
+}
+
+.valid {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */

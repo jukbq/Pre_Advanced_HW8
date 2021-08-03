@@ -44,9 +44,6 @@ section {
             .inp_bw {
                 width: 69%;
             }
-            .valid {
-                border: 1px solid red;
-            }
             button {
                 width: 14%;
             }
@@ -55,6 +52,7 @@ section {
             .inp_text {
                 height: 95px;
                 margin-top: 10px;
+                align-items: 0px;
             }
             button {
                 width: 100%;
@@ -62,4 +60,8 @@ section {
             }
         }
     }
+}
+
+.valid {
+    border: 1px solid red;
 }
